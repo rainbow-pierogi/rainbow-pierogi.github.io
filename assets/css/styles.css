@@ -13,12 +13,12 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding: 60px 0px;
+  padding: 34px 0px;
 }
 
 #inner-wrapper {
   position: relative;
-  width: 80%;
+  width: 86%;
   max-width: 1152px;
   display: flex;
   flex-direction: column;
@@ -27,10 +27,10 @@ body {
 }
 
 #logo {
-  width: 50%;
+  width: 38%;
   min-width: 280px;
   height: auto;
-  margin-bottom: 30px;
+  margin-bottom: 28px;
 }
 
 #header-wrapper {
@@ -40,25 +40,26 @@ body {
 }
 
 #header-wrapper img {
-  width: 6%;
+  width: 5%;
   min-width: 34px;
   height: auto;
 }
 
 h1 {
   font-size: 1.7em;
-  margin: 0 26px;
+  line-height: 1.74em;
+  margin: 0 20px;
 }
 
 #mission-statement {
   font-size: 1.25em;
-  line-height: 2em;
-  margin-top: 44px;
+  line-height: 1.75em;
+  margin-top: 24px;
   text-align: left;
 }
 
 h2 {
-  margin-top: 56px;
+  margin-top: 36px;
   font-size: 1.5em;
 }
 
@@ -71,26 +72,16 @@ h2 {
   justify-content: center;
   text-transform: uppercase;
   border-radius: 4px;
-  margin-top: 34px;
+  margin-top: 30px;
   font-size: 0.9em;
   font-weight: 200;
   letter-spacing: 2px;
-}
-
-#support-button:hover {
-  background-color: rgba(255,255,255,0.4);
-}
-
-#support-button:hover span {
-  display:none
-}
-
-#support-button:hover:before {
-  content: "coming soon";
+  text-decoration: none;
+  color: #fff;
 }
 
 #bottom-text {
-  margin-top: 34px;
+  margin-top: 28px;
   font-size: 1em;
   line-height: 1.3em;
 }
@@ -128,7 +119,7 @@ h2 {
 
   #mission-statement {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 16px;
   }
 
   #mission-statement span {
@@ -158,9 +149,6 @@ h2 {
 }
 
 @media only screen and (min-width: 960px){
-  body {
-    font-size: 14px;
-  }
 
   #icons a {
     height: 48px;
@@ -168,8 +156,28 @@ h2 {
   }
 }
 
-@media only screen and (min-width: 1124px){
+@media only screen and (min-width: 1290px){
+  body {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 1390px){
   body {
     font-size: 16px;
+  }
+
+  #wrapper {
+    padding: 48px 0px;
+  }
+}
+
+@media only screen and (min-width: 1790px){
+  body {
+    font-size: 18px;
+  }
+
+  #wrapper {
+    padding: 60px 0px;
   }
 }
