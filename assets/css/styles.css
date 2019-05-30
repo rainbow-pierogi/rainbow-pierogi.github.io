@@ -129,6 +129,10 @@ h2 {
   display: block;
 }
 
+#pierogi-gif {
+  margin-top: 48px;
+}
+
 @media only screen and (min-width: 544px){
 
   h1 {
