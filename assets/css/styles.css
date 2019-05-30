@@ -45,10 +45,28 @@ body {
   height: auto;
 }
 
+#header-container a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#header-container a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+#header-container a:hover {
+  text-decoration: underline;
+}
+
 h1 {
   font-size: 1.7em;
   line-height: 1.74em;
   margin: 0 20px;
+}
+
+#header-container h1:last-child {
+  margin: 26px 0px;
 }
 
 #mission-statement {
